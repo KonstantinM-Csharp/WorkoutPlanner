@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Window">
+        <Setter Property="Background" Value="#FF241F3C"></Setter>
+    </Style>
+    <Style TargetType="Label">
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontSize" Value="22"></Setter>
+    </Style>
+    <Style TargetType="TextBlock">
+        <Setter Property="Foreground" Value="White"></Setter>
+        <Setter Property="FontSize" Value="14"></Setter>
+    </Style>
+    <Style TargetType="Button">
+        <Setter Property="MinWidth" Value="180"></Setter>
+        <Setter Property="MinHeight" Value="30"></Setter>
+        <Setter Property="Background" Value="#FFF9F9F9"></Setter>
+        <Setter Property="BorderThickness" Value="2"></Setter>
+        <Setter Property="Foreground" Value="#FF241F3C"></Setter>
+    </Style>
+</ResourceDictionary>

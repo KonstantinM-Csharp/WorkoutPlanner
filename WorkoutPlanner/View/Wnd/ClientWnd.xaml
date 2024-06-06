@@ -1,0 +1,38 @@
+﻿<Window x:Class="WorkoutPlanner.View.Wnd.ClientWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorkoutPlanner.View.Wnd"
+        mc:Ignorable="d"
+        Title="Мой планировщик" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen"
+        Background="#FF241F3C">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="0.2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button Name="BtnMenu"
+                Grid.Column="0"
+                Grid.Row="0"
+                VerticalAlignment="Top"
+                HorizontalAlignment="Left"
+                Content="Меню"
+                Margin="10"
+            ></Button>
+        <Frame x:Name="TrainerFrm"
+               Grid.Column="0"
+               Grid.Row="1"
+               Grid.ColumnSpan="3"
+               Grid.RowSpan="2"
+            ></Frame>
+    </Grid>
+</Window>
